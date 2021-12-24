@@ -3,10 +3,10 @@
 #include<stdio.h>
 int main()
 { 
-   int side,area;
+   float side,area;
    printf("Enter the side = ");
-   scanf("%d",&side);
+   scanf("%f",&side);
    area=side*side;
-   printf("Area of square=%d",area);
+   printf("Area of square=%f",area);
    return 0;
 }
